@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\pages",
+    "\\pages\\api",
+    "\\styles"
   ],
-  "SelectedNode": "\\C:\\Users\\asus\\Source\\Repos\\token-umbrella",
+  "SelectedNode": "\\netlify.toml",
   "PreviewInSolutionExplorer": false
 }
