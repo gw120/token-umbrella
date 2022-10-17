@@ -1,10 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\pages",
-    "\\pages\\api",
-    "\\styles"
+    "\\components",
+    "\\pages"
   ],
-  "SelectedNode": "\\netlify.toml",
+  "SelectedNode": "\\components\\Header.js",
   "PreviewInSolutionExplorer": false
 }
