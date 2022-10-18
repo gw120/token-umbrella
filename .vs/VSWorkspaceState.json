@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\components",
-    "\\pages"
+    "\\components\\cmc-table",
+    "\\pages",
+    "\\styles"
   ],
-  "SelectedNode": "\\components\\Header.js",
+  "SelectedNode": "\\components\\TrendingCard.js",
   "PreviewInSolutionExplorer": false
 }
