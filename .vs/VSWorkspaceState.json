@@ -2,13 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\components",
-    "\\components\\cmc-table",
     "\\context",
     "\\pages",
     "\\pages\\api",
     "\\pages\\currencies",
     "\\styles"
   ],
-  "SelectedNode": "\\components\\Chat.js",
+  "SelectedNode": "\\components\\CoinDetails.js",
   "PreviewInSolutionExplorer": false
 }
