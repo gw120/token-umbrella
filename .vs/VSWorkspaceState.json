@@ -3,9 +3,11 @@
     "",
     "\\components",
     "\\components\\cmc-table",
+    "\\context",
     "\\pages",
+    "\\pages\\api",
     "\\styles"
   ],
-  "SelectedNode": "\\components\\TrendingCard.js",
+  "SelectedNode": "\\components\\cmc-table\\CMCtableHeader.js",
   "PreviewInSolutionExplorer": false
 }
