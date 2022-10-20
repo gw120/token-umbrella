@@ -6,8 +6,9 @@
     "\\context",
     "\\pages",
     "\\pages\\api",
+    "\\pages\\currencies",
     "\\styles"
   ],
-  "SelectedNode": "\\components\\cmc-table\\CMCtableHeader.js",
+  "SelectedNode": "\\components\\Chat.js",
   "PreviewInSolutionExplorer": false
 }
