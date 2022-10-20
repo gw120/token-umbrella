@@ -63,6 +63,10 @@ export const TokenUmbrellaProvider = ({ children }) => {
 
     }
 
+    const openModal = () => {
+        setOpenBuyCryptoModal(true)
+    }
+
     //Mint function for the token with send ether to the contract
     const mint = async () => {
         try {
@@ -147,6 +151,7 @@ export const TokenUmbrellaProvider = ({ children }) => {
         <TokenUmbrellaContext.Provider
             value={{
                 getTopTenCoins,
+                openBuyCryptoModal,
                 setOpenBuyCryptoModal,
                 coins,
                 loadingCoins,
