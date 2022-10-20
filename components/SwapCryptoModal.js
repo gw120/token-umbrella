@@ -1,4 +1,4 @@
-import { useContext } from 'react'
+﻿import { useContext } from 'react'
 import { TokenUmbrellaContext } from '../context/context'
 
 const styles = {
@@ -57,8 +57,8 @@ const SwapCryptoModal = () => {
                         {coins.map(coin => {
                             if (!loadingCoins) {
                                 return (
-                                    <option key={coin.id} value={coin.attributes.name}>
-                                        {coin.attributes.name}
+                                    <option key={coin.id} value={coin.attributes.Name}>
+                                        {coin.attributes.Name}
                                     </option>
                                 )
                             }
@@ -77,9 +77,10 @@ const SwapCryptoModal = () => {
                     >
                         {coins.map(coin => {
                             if (!loadingCoins) {
+                             console.log(coin.attributes.Name, '☢')
                                 return (
-                                    <option key={coin.id} value={coin.attributes.name}>
-                                        {coin.attributes.name}
+                                    <option key={coin.id} value={coin.attributes.Name}>
+                                        {coin.attributes.Name}
                                     </option>
                                 )
                             }
