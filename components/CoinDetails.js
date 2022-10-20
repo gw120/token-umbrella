@@ -191,6 +191,13 @@ const CoinDetails = ({ coinName, coinSymbol, price }) => {
                         <div className={styles.greyBtn}>PoW</div>
                         <div className={styles.greyBtn}>SHA-256</div>
                         <div className={styles.greyBtn}>Store of value</div>
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                        &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;
+                    </div>
+                    <div className={styles.coinDetailsLinks}>
                     </div>
                 </div>
 
