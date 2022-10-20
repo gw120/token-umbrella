@@ -33,7 +33,27 @@ export const TokenUmbrellaProvider = ({ children }) => {
         }
     }, [isAuthenticated])
 
-    // Todo: Get contract addresses
+    const getContractAddress = () => {
+        if (fromToken === 'Dai') return daiAddress
+        if (fromToken === 'Dogecoin') return dogeAddress
+        if (fromToken === 'Link') return linkAddress
+        if (fromToken === 'usdc') return usdcAddress
+    }
+
+    const getToAddress = () => {
+        if (toToken === 'Dai') return daiAddress
+        if (toToken === 'Dogecoin') return dogeAddress
+        if (toToken === 'Link') return linkAddress
+        if (toToken === 'Usdc') return usdcAddress
+    }
+
+    const getToAbi = () => {
+        if (toToken === 'Dai') return daiAbi
+        if (toToken === 'Dogecoin') return dogeAbi
+        if (toToken === 'Link') return linkAbi
+        if (toToken === 'Usdc') return usdcAbi
+    }
+
     const getTopTenCoins = async () => {
         try {
             const res = await fetch('/api/getTopTen')
@@ -42,6 +62,9 @@ export const TokenUmbrellaProvider = ({ children }) => {
         } catch (e) { console.log(e.message) }
 
     }
+
+        // TODO: mint function
+
     return (
         <TokenUmbrellaContext.Provider
             value={{
