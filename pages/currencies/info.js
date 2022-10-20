@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 
 // COMPONENTS
 import Header from '../../components/Header'
+import CMCpriceConverter from '../../components/CMCpriceConverter'
 
 // IMAGES
 import solana from '../../assets/solana.png'
