@@ -1,13 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\components",
     "\\context",
     "\\pages",
-    "\\pages\\api",
-    "\\pages\\currencies",
-    "\\styles"
+    "\\smart-contract\\scripts"
   ],
-  "SelectedNode": "\\components\\CoinDetails.js",
+  "SelectedNode": "\\context\\context.js",
   "PreviewInSolutionExplorer": false
 }
