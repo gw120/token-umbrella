@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\context",
-    "\\pages",
-    "\\smart-contract\\scripts"
+    "\\components"
   ],
-  "SelectedNode": "\\context\\context.js",
+  "SelectedNode": "\\tsconfig.json",
   "PreviewInSolutionExplorer": false
 }
